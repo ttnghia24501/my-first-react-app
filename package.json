@@ -2,7 +2,7 @@
   "name": "my-first-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nghiatt.github.io/my-first-app",
+  "homepage": "https://ttnghia24501.github.io/my-first-react-app",
   "dependencies": {
     "@atlaskit/app-provider": "^2.0.0",
     "@atlaskit/button": "^16.18.1",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
